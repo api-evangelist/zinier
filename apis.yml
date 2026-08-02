@@ -1,8 +1,30 @@
 aid: zinier
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zinier.png
 name: Zinier
-description: 'Zinier is a company surfaced as a portfolio company of accel, iconiq-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Zinier is a no-code field service management platform that helps enterprises
+  schedule and manage their workforce, assets, and customers, powered by
+  generative AI. Its office and field experiences pair ready-to-use productivity
+  tools with a no-code Task Builder for building custom workflows, and an
+  Integration Marketplace advertising 1,000+ out-of-the-box connections to ERP,
+  CRM, and EAM systems such as SAP, Oracle, Microsoft, Salesforce, Zendesk,
+  ServiceNow, IBM, and Infor. Zinier targets asset-intensive field-service
+  operations, from scheduling and dispatch through mobile task execution and
+  customer communication. The company was surfaced as a portfolio company of
+  Accel and ICONIQ Capital. No public developer API, API reference, or OpenAPI
+  surface is published today — integration is delivered through the marketplace
+  and end-user product documentation.
 url: https://raw.githubusercontent.com/api-evangelist/zinier/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +35,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Field Service Management
+- No-Code
+- Workflow Automation
+- Field Service
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.zinier.com
+  url: https://www.zinier.com
+- type: Documentation
+  url: https://docs.zinier.com
+- type: Blog
+  url: https://www.zinier.com/resources/blog
+- type: Support
+  url: https://www.zinier.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.zinier.com/privacy-policy
+- type: TermsOfService
+  url: https://www.zinier.com/terms-and-conditions
+- type: Compliance
+  url: https://www.zinier.com/resources/security-compliance
+- type: TrustCenter
+  url: security/zinier-trust-center.yml
+- type: DomainSecurity
+  url: security/zinier-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
