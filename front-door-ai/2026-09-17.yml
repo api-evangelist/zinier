@@ -1,0 +1,29 @@
+# Front Door AI Index — zinier — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zinier
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.zinier.com
+  final_host: www.zinier.com
+  ownership: own
+  owner: zinier
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 8.78
+  words: 1595
+  tiers:
+    agentic: 2
+    core: 12
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 9
+    generative ai: 3
+    AI agent: 2
+    agent: 2
+    automation: 2
