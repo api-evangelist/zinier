@@ -52,7 +52,7 @@ tags:
 - Artificial Intelligence
 - Field Service Management
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Field Service
 - Enterprise Software
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Workflow Automation
 - Field Service
 - Enterprise Software
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
